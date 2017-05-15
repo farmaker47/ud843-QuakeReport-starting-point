@@ -17,12 +17,12 @@ import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.example.android.quakereport.EarthquakeActivity.LOG_TAG;
 
 /**
  * Helper methods related to requesting and receiving earthquake data from USGS.
  */
 public final class QueryUtils {
+    private static final String LOG_TAG = QueryUtils.class.getSimpleName();
 
     /**
      * Sample JSON response for a USGS query

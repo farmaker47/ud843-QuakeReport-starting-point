@@ -33,9 +33,9 @@ public class EarthquakeActivity extends AppCompatActivity {
 
     private EarthquakeAdapter mAdapter;
 
-    public static final String LOG_TAG = EarthquakeActivity.class.getName();
+    private static final String LOG_TAG = EarthquakeActivity.class.getName();
     private static final String USGS_REQUEST_URL =
-            " http://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&orderby=time&minmag=2&limit=10";
+            "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2016-01-01&endtime=2016-01-31&minmag=6&limit=10";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

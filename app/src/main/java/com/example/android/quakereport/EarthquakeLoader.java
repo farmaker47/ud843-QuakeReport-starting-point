@@ -5,9 +5,7 @@ import android.content.Context;
 
 import java.util.List;
 
-/**
- * Created by farmaker1 on 15/05/2017.
- */
+
 
 public class EarthquakeLoader extends AsyncTaskLoader<List<Earthquake>> {
 
